@@ -1,0 +1,41 @@
+# 리안헤어 오류점 (RIAHN Hair Oryu)
+
+<!-- TODO: 아래 https://example.com 을 실제 도메인으로 일괄 변경하세요 -->
+
+서울 구로구 오류동의 프리미엄 헤어살롱입니다. 25년 미용 전문 프랜차이즈 RIAHN의 오류점으로,
+시술 전 1:1 모발·두피 진단을 거쳐 복구 매직·결 개선, 남성 다운펌·볼륨펌, 레이어드컷,
+퍼스널 컬러 염색·새치 커버를 전문으로 합니다. 1호선 오류동역 3번 출구에서 도보 5분이며,
+네이버 예약(https://booking.naver.com/booking/13/bizes/42392) 또는 전화(02-2685-1141)로
+예약할 수 있습니다. 오류동·개봉동·온수 인근 고객이 주로 찾습니다.
+
+## 페이지
+
+- [홈](https://example.com/index.html): 매장 소개, 대표 시술, 디자이너 미리보기, 예약 안내
+- [커트 안내](https://example.com/cut.html): 남성컷·여성 레이어드컷·학생컷·사이드 다운펌 가격과 안내
+- [펌 안내](https://example.com/perm.html): 볼륨펌·디자인펌·디지털펌·남성 아이롱펌·볼륨매직·매직셋팅
+- [염색 안내](https://example.com/color.html): 뿌리염색·새치 커버·퍼스널 컬러 염색·탈색
+- [클리닉·두피케어](https://example.com/clinic.html): 나노힐 손상모 복구 1~3단계, 헤드스파
+- [디자이너 소개](https://example.com/designers.html): 한혜림 점장(복구매직), 소영(레이어드컷), 지원(남성컷) 디자이너
+- [갤러리](https://example.com/gallery.html): 커트·펌·염색 시술 결과와 매장 사진
+- [자주 묻는 질문](https://example.com/faq.html): 예약·가격·할인·주차·시술 후 관리 FAQ 10개
+- [오시는 길](https://example.com/location.html): 지도, 주소, 대중교통, 주차, 영업시간
+
+## 핵심 정보
+
+- 상호: 리안헤어 오류점 (RIAHN Hair Oryu) / 대표 박희숙
+- 주소: 서울특별시 구로구 경인로 193, 상임빌딩 2층 (오류동)
+- 전화: 02-2685-1141
+- 영업시간: 09:00–19:00 (매주 화요일 휴무)
+- 예약: 네이버 예약 https://booking.naver.com/booking/13/bizes/42392
+- 주차: 오류아트홀(오류문화센터) 주차장 이용, 주차비 매장 지원
+- 대표 시술·가격대: 커트 18,000~55,000원 / 펌·매직 88,000~220,000원 / 염색 68,000~120,000원 / 클리닉·헤드스파 44,000~88,000원
+- 할인: 지원 디자이너 지명 시 펌·염색 30% 할인 (중복 불가), 학생 컷 18,000원
+- SNS: 인스타그램 https://www.instagram.com/hyelim_blue / 유튜브 https://www.youtube.com/@MyHair_ByLim / 네이버 플레이스 https://naver.me/xhzr7WgB
+
+## 다른 언어 (Other languages)
+
+이 사이트는 영어·일본어·중국어(간체) 페이지를 제공합니다. 각 언어의 홈에서 같은 구조의 하위 페이지(cut/perm/color/clinic/designers/gallery/faq/location.html)로 이동할 수 있습니다.
+
+- English: https://example.com/en/index.html — Hair salon in Guro, Seoul. Cuts, perms, color, hair clinic, FAQ and directions in English.
+- 日本語: https://example.com/ja/index.html — ソウル九老区の美容室。カット・パーマ・カラー・ケア・アクセス案内を日本語で。
+- 简体中文: https://example.com/zh/index.html — 首尔九老区美发沙龙。剪发、烫发、染发、护理与到店路线的中文介绍。

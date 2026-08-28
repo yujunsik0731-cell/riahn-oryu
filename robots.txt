@@ -1,0 +1,44 @@
+# RIAHN 헤어 오류점 robots.txt
+# 도메인 확정 후 아래 Sitemap의 https://example.com 을 실제 도메인으로 변경하세요
+User-agent: *
+Allow: /
+
+# 검색엔진 크롤러 명시 허용
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI 크롤러 명시 허용 (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml
