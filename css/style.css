@@ -261,15 +261,24 @@ footer .copy{color:rgba(247,243,238,.35);font-size:12px}
   box-shadow:0 -4px 18px rgba(62,54,46,.14);
 }
 .fixed-bar a{
-  flex:1;display:flex;align-items:center;justify-content:center;gap:8px;
-  font-size:15.5px;font-weight:700;letter-spacing:.02em;
+  flex:0 0 27%;display:flex;align-items:center;justify-content:center;gap:6px;
+  font-size:14px;font-weight:700;letter-spacing:.02em;
 }
-.fixed-bar .call{background:var(--bg);color:var(--ink);border-top:1px solid var(--line);flex:0 0 34%}
+.fixed-bar .call{background:var(--bg);color:var(--ink);border-top:1px solid var(--line);flex:0 0 27%}
 .fixed-bar .book{background:var(--accent);color:#fff}
 .fixed-bar .book:active{background:var(--accent-dark)}
 .fixed-bar svg{width:18px;height:18px;flex-shrink:0}
+/* 3버튼 구조: 주버튼(.primary) 46% + 보조 2개 27% */
+.fixed-bar a:not(.primary){background:var(--bg);color:var(--ink);border-top:1px solid var(--line);flex:0 0 27%}
+.fixed-bar a:not(.primary) + a:not(.primary){border-left:1px solid var(--line)}
+.fixed-bar .primary{background:var(--accent);color:#fff;flex:0 0 46%}
+.fixed-bar .primary:active{background:var(--accent-dark)}
+@media(max-width:380px){
+  .fixed-bar a:not(.primary) .lbl{display:none}
+  .fixed-bar a:not(.primary) svg{width:20px;height:20px}
+}
 @media(min-width:960px){
-  .fixed-bar{left:auto;right:24px;bottom:24px;width:400px;overflow:hidden;box-shadow:0 8px 30px rgba(62,54,46,.24)}
+  .fixed-bar{left:auto;right:24px;bottom:24px;width:460px;overflow:hidden;box-shadow:0 8px 30px rgba(62,54,46,.24)}
 }
 
 /* ===== 홈: 히어로 영상 ===== */
