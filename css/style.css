@@ -74,6 +74,17 @@ h1,h2,h3{letter-spacing:.03em;font-weight:700}
   .gnb{display:flex}
   .menu-btn{display:none}
 }
+/* 좁은 화면(구형 아이폰 등) 헤더 겹침 방지 */
+@media(max-width:380px){
+  .header-inner{padding:0 14px}
+  .logo{gap:7px}
+  .logo img{height:34px}
+  .logo .branch{display:none}
+  .header-right{gap:4px}
+  .lang-switch{font-size:10px}
+  .lang-switch a{padding:5px 6px}
+  .menu-btn{width:34px}
+}
 
 /* ===== 페이지 타이틀 ===== */
 .page-head{padding:56px 0 40px;text-align:center;border-bottom:1px solid var(--line-soft)}
