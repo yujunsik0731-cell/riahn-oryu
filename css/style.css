@@ -299,3 +299,31 @@ footer .copy{color:rgba(247,243,238,.35);font-size:12px}
 .designer-ig{display:inline-flex;align-items:center;gap:7px;margin-top:14px;color:#A98467;text-decoration:none;font-size:.84rem;letter-spacing:.01em;transition:opacity .2s}
 .designer-ig:hover{opacity:.62}
 .designer-ig svg{width:18px;height:18px;flex:none}
+
+/* ===== 인재채용 (recruit) ===== */
+.card-grid.cols-3{grid-template-columns:1fr}
+@media(min-width:720px){.card-grid.cols-3{grid-template-columns:repeat(3,1fr)}}
+.recruit-benefit .card-body{padding:26px 22px}
+.recruit-benefit .card-body .step{font-size:12px;letter-spacing:.2em;color:var(--accent);font-weight:700}
+.recruit-benefit .card-body h3{font-size:17px;margin-top:6px;line-height:1.45}
+.recruit-benefit .card-body p{font-size:14px;color:var(--ink-soft);margin-top:9px}
+.recruit-lead{max-width:760px;margin:0 auto 22px;text-align:center;font-size:15px;color:var(--ink-soft)}
+.recruit-post{max-width:760px;margin:0 auto 26px}
+.recruit-post-title{display:flex;align-items:baseline;gap:9px;margin-bottom:12px}
+.recruit-post-title h3{font-size:19px;letter-spacing:.04em}
+.recruit-post-title span{font-size:11.5px;letter-spacing:.24em;color:var(--accent-dark);font-weight:700}
+.recruit-table td:first-child{width:104px;color:var(--accent-dark);font-weight:700;white-space:nowrap}
+.recruit-table th:last-child,.recruit-table td:last-child{text-align:left;white-space:normal}
+.recruit-table td{font-size:14.5px}
+.recruit-box{max-width:760px;margin:0 auto}
+.recruit-contact{margin:0 auto 20px;max-width:420px;background:var(--bg);border:1px solid var(--line);padding:18px 20px}
+.recruit-contact .label{font-size:12px;letter-spacing:.16em;color:var(--ink-soft);font-weight:600}
+.recruit-contact .tel{display:inline-block;margin-top:6px;font-size:24px;font-weight:800;letter-spacing:.02em;color:var(--accent-dark)}
+.recruit-contact .doc{margin-top:8px;font-size:13px;color:var(--ink-soft)}
+.recruit-cta-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn-recruit{background:var(--accent-dark);color:#fff}
+.btn-recruit:hover{background:var(--ink)}
+.btn-recruit-line{border:1px solid var(--accent-dark);color:var(--accent-dark);background:transparent}
+.btn-recruit-line:hover{background:var(--accent-dark);color:#fff}
+.recruit-loc{text-align:center;padding:34px 20px;font-size:14.5px;color:var(--ink-soft)}
+.recruit-loc a{color:var(--accent-dark);font-weight:600;border-bottom:1px solid var(--accent)}
