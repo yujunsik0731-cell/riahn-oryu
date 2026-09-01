@@ -294,3 +294,8 @@ footer .copy{color:rgba(247,243,238,.35);font-size:12px}
 .home-about h2 em{font-style:normal;color:var(--accent-dark)}
 .home-about p{color:var(--ink-soft);font-size:15px;margin-bottom:10px}
 .home-about .more{display:inline-block;margin-top:14px;font-size:14px;font-weight:600;color:var(--accent-dark);border-bottom:1px solid var(--accent);padding-bottom:2px}
+
+/* 디자이너 카드 인스타그램 링크 */
+.designer-ig{display:inline-flex;align-items:center;gap:7px;margin-top:14px;color:#A98467;text-decoration:none;font-size:.84rem;letter-spacing:.01em;transition:opacity .2s}
+.designer-ig:hover{opacity:.62}
+.designer-ig svg{width:18px;height:18px;flex:none}
